@@ -6,8 +6,8 @@ public class Test
 	Connection con;
 	PreparedStatement ps;
 	Class.forName("com.mysql.jdbc.Driver");
-con=DriverManager.getConnection("jdbc:mysql://localhost:3307/muthupandi","root","");
-	ps=con.prepareStatement("insert into students values(101,'muthupandi','Msc(CS)',7.35)");
+con=DriverManager.getConnection("jdbc:mysql://localhost:3307/Eswar","root","");
+	ps=con.prepareStatement("insert into students values(101,'Eswar','Msc(CS)',7.35)");
 	ps.executeUpdate();
 	
 	System.out.println("Insert Successfully");
